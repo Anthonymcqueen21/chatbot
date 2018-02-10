@@ -5,9 +5,9 @@ def poi():
     opponent=choice[random.randint(0, 2)]
     player=False
 
-    while player==False:
-        player=input("Rock, Paper, Scissors?")
-        if player==opponent:
+while player==False:
+    player=input("Rock, Paper, Scissors?")
+      if player==opponent:
             print("Tie!")
         elif player=="Rock":
             if opponent=="Paper":
